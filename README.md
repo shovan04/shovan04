@@ -37,16 +37,14 @@ Let’s connect and create something amazing together!
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=shovan04&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="shovan04"/>
   </a>
 </div>
-<p align="center">
+<div align="center">
   <a href="https://github.com/shovan04">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=shovan04&&theme=tokyonight" alt="shovan04" />
   </a>
-</p>
-<p align="center">
   <a href="https://leetcode.com/u/shovan_04/">
     <img src="https://leetcard.jacoblin.cool/shovan_04?theme=dark&font=Inder" alt="shovan_04" />
   </a>
-</p>
+</div>
 
 ------
 <h3 align="left">Languages and Tools:</h3>
