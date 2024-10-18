@@ -29,10 +29,10 @@ Let’s connect and create something amazing together!
 ------
 <h3 align="left">Activity:</h3>
 
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=shovan04&bg_color=100f0f&color=4c5e9e&line=4c569e&point=403e41&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Shovan's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=shovan04&bg_color=100f0f&color=4c5e9e&line=4c569e&point=403e41&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <div align="center">
-  <a href="https://github.com/shovan04">
+  <a href="https://github.com/shovan04?tab=repositories">
     <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs?username=shovan04&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="shovan04"/>
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=shovan04&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="shovan04"/>
   </a>
@@ -40,6 +40,11 @@ Let’s connect and create something amazing together!
 <p align="center">
   <a href="https://github.com/shovan04">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=shovan04&&theme=tokyonight" alt="shovan04" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://leetcode.com/u/shovan_04/">
+    <img src="https://leetcard.jacoblin.cool/shovan_04?theme=dark&font=Inder" alt="shovan_04" />
   </a>
 </p>
 
@@ -83,3 +88,4 @@ Let’s connect and create something amazing together!
         <td><img height="40" src="https://skillicons.dev/icons?i=windows,ubuntu,apple"/></td>
     </tr>
 </table>
+
