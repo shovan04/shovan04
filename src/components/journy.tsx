@@ -12,7 +12,7 @@ const ProfessionalJourney = () => {
         </div>
 
         {/* Education & Certifications */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-20">
           {/* Education */}
           <div>
             <h3 className="text-4xl font-semibold">Education</h3>
