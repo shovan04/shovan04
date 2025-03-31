@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-CaskaydiaRegular bg-primary;
+  }
+}
+
+@font-face {
+  font-family: "CaskaydiaRegular";
+  src: url("/fonts/CaskaydiaRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "CaskaydiaSemiBold";
+  src: url("/fonts/CaskaydiaSemiBold.ttf") format("truetype");
+  font-weight: 900;
+}
+
+.rotating-border-container {
+  position: relative;
+}
+
+.rotating-border-container::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  border-radius: 50%;
+  background: conic-gradient(
+    #ff6b6b 0% 15%,
+    /* Bold dash */ transparent 15% 20%,
+    /* Thin gap */ #4ecdc4 20% 35%,
+    /* Bold dash */ transparent 35% 40%,
+    /* Thin gap */ #45b7d1 40% 55%,
+    /* Medium dash */ transparent 55% 70%,
+    /* Long gap */ #96ceb4 70% 85%,
+    /* Bold dash */ transparent 85% 90%,
+    /* Thin gap */ #ffe66d 90% 100% /* Medium dash */
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  padding: 4px;
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
