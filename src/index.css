@@ -57,3 +57,13 @@
     transform: rotate(360deg);
   }
 }
+
+/* Hide scrollbar for all elements */
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}

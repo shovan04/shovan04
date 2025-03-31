@@ -8,8 +8,8 @@ const menuItems = [
       path: "/skills",
     },
     {
-      name: "Journy",
-      path: "/journy",
+      name: "Journey",
+      path: "/journey",
     },
     {
       name: "Contact",

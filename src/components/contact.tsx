@@ -10,7 +10,7 @@ const ContactPage = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Contact Information */}
-        <div className="space-y-4 bg-secondary rounded-lg max-h-fit p-5">
+        <div className="space-y-4 bg-secondary rounded-lg h-fit p-5">
           <h2 className="text-xl font-semibold">Contact Information</h2>
           <div className="space-y-2 flex items-center justify-start gap-4">
             <svg
