@@ -15,10 +15,10 @@ const menuItems = [
       name: "Contact",
       path: "/contact",
     },
-    {
-      name: "Resume",
-      path: "/resume",
-    },
+    // {
+    //   name: "Resume",
+    //   path: "/resume",
+    // },
   ];
 
 

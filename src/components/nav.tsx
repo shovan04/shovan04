@@ -78,7 +78,7 @@ const Navbar = () => {
           ))}
           <Link
             to="/donate"
-            className="mt-2 px-4 py-2 text-sm text-white rounded-full border border-accent bg-accent hover:bg-transparent hover:border-accent hover:shadow-xl transition-all duration-300"
+            className="mt-2 px-4 py-2 rounded-full text-white border border-accent bg-accent hover:bg-transparent hover:border-accent hover:shadow-xl transition-all duration-300"
             onClick={() => setIsMenuOpen(false)}  // Added onClick here
           >
             Donate
