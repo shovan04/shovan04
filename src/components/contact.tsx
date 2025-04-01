@@ -3,126 +3,97 @@ const ContactPage = () => {
     <section className="mx-auto p-4 py-8 text-white">
       <div className="text-center mb-8">
         <h1 className="text-3xl font-bold mb-2">Let's Connect</h1>
-        <p className="text-accent">
+        <p className="text-accent " style={{fontSize: '12px'}}>
           Get in touch for opportunities or collaboration
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 " style={{fontSize: '12px'}}>
         {/* Contact Information */}
         <div className="space-y-4 bg-secondary rounded-lg h-fit p-5">
           <h2 className="text-xl font-semibold">Contact Information</h2>
           <div className="space-y-2 flex items-center justify-start gap-4">
             <svg
+              viewBox="0 0 24 24"
+              fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              xmlnsXlink="http://www.w3.org/1999/xlink"
-              width="48"
-              height="48"
-              viewBox="0 0 48 48"
+              className="w-10 h-10 p-2 bg-accent/20 rounded-full"
             >
-              <path
-                transform="matrix(1 0 0 1 0 0)"
-                d="M24 0C10.7452 0 0 10.7452 0 24L0 24.036C0 37.2908 10.7092 48 23.964 48L24 48C37.2548 48 48 37.2908 48 24.036L48 24C48 10.7452 37.2908 0 24.036 0L24 0Z"
-                fill-rule="nonzero"
-                fill="rgb(74, 222, 128)"
-                fill-opacity="0.1"
-              />
-              <defs>
-                <clipPath id="clipPath4355587249">
-                  <path
-                    transform="matrix(1 0 0 1 12 12)"
-                    d="M0 0L24 0L24 24L0 24L0 0Z"
-                    fill-rule="nonzero"
-                  />
-                </clipPath>
-              </defs>
-              <g clip-path="url(#clipPath4355587249)">
-                <defs>
-                  <clipPath id="clipPath6225878745">
-                    <path
-                      transform="matrix(1 0 0 1 12 12)"
-                      d="M0 0L24 0L24 24L0 24L0 0Z"
-                      fill-rule="nonzero"
-                    />
-                  </clipPath>
-                </defs>
-                <g clip-path="url(#clipPath6225878745)">
-                  <path
-                    transform="matrix(1 0 0 1 15 17)"
-                    d="M2 15Q0.757357 15 -0.121319 14.1213Q-1 13.2426 -1 12L-1 3.01352C-1.00014 3.0039 -1.00014 2.99427 -1 2.98463L-1 2Q-1 0.75736 -0.121321 -0.12132Q0.757359 -1 2 -1L16 -1Q17.2426 -1 18.1213 -0.121322Q19 0.757359 19 2L19 2.98461C19.0001 2.99426 19.0001 3.00391 19 3.01355L19 12Q19 13.2426 18.1213 14.1213Q17.2426 15 16 15L2 15ZM17 2.46482L17 2Q17 1.58579 16.7071 1.29289Q16.4142 1 16 1L2 1Q1.58579 1 1.29289 1.29289Q1 1.58579 1 2L1 2.46482L8.4447 7.42795Q8.69703 7.5963 9 7.5963Q9.30297 7.5963 9.555 7.42815L17 2.46482ZM1 4.86852L7.3353 9.09205Q8.09108 9.5963 9 9.5963Q9.90892 9.5963 10.665 9.09185L17 4.86852L17 12Q17 12.4142 16.7071 12.7071Q16.4142 13 16 13L2 13Q1.58579 13 1.29289 12.7071Q1 12.4142 1 12L1 4.86852Z"
-                    fill-rule="evenodd"
-                    fill="rgb(74, 222, 128)"
-                  />
-                </g>
+              <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                {" "}
+                <path
+                  d="M3 8L8.44992 11.6333C9.73295 12.4886 10.3745 12.9163 11.0678 13.0825C11.6806 13.2293 12.3194 13.2293 12.9322 13.0825C13.6255 12.9163 14.2671 12.4886 15.5501 11.6333L21 8M6.2 19H17.8C18.9201 19 19.4802 19 19.908 18.782C20.2843 18.5903 20.5903 18.2843 20.782 17.908C21 17.4802 21 16.9201 21 15.8V8.2C21 7.0799 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V15.8C3 16.9201 3 17.4802 3.21799 17.908C3.40973 18.2843 3.71569 18.5903 4.09202 18.782C4.51984 19 5.07989 19 6.2 19Z"
+                  stroke="#4ADE80"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                ></path>{" "}
               </g>
             </svg>
-            <p className="text-lg">
-              <span className="text-md text-gray-400">Email</span>
+            <div className="text-lg" style={{fontSize: '15px'}}>
+              <span className="text-md text-gray-400" style={{fontSize: '18px'}}>Email</span>
               <br />
               shovanm50@gmail.com
-            </p>
+            </div>
           </div>
           <div className="space-y-2 flex items-center justify-start gap-4">
             <svg
+              viewBox="-4 0 32 32"
+              version="1.1"
               xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink"
-              width="48"
-              height="48"
-              viewBox="0 0 48 48"
+              fill="#4ADE80"
+              className="bg-accent/20 p-2 rounded-full w-10 h-10"
             >
-              <path
-                transform="matrix(1 0 0 1 0 0)"
-                d="M24 0C10.7452 0 0 10.7452 0 24L0 24.036C0 37.2908 10.7092 48 23.964 48L24 48C37.2548 48 48 37.2908 48 24.036L48 24C48 10.7452 37.2908 0 24.036 0L24 0Z"
-                fill-rule="nonzero"
-                fill="rgb(74, 222, 128)"
-                fill-opacity="0.1"
-              />
-              <defs>
-                <clipPath id="clipPath6623906965">
-                  <path
-                    transform="matrix(1 0 0 1 12 12)"
-                    d="M0 0L24 0L24 24L0 24L0 0Z"
-                    fill-rule="nonzero"
-                  />
-                </clipPath>
-              </defs>
-              <g clip-path="url(#clipPath6623906965)">
-                <defs>
-                  <clipPath id="clipPath9982003031">
+              <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+
+                <defs> </defs>
+                <g
+                  id="Page-1"
+                  stroke="none"
+                  strokeWidth="1"
+                  fill="none"
+                  fillRule="evenodd"
+                >
+                  {" "}
+                  <g
+                    id="Icon-Set"
+                    transform="translate(-104.000000, -411.000000)"
+                    fill="#4ADE80"
+                  >
+                    {" "}
                     <path
-                      transform="matrix(1 0 0 1 12 12)"
-                      d="M0 0L24 0L24 24L0 24L0 0Z"
-                      fill-rule="nonzero"
-                    />
-                  </clipPath>
-                </defs>
-                <g clip-path="url(#clipPath9982003031)">
-                  <path
-                    transform="matrix(1 0 0 1 16 15.0003)"
-                    d="M14.3641 14.3638L10.1211 18.6068Q9.24319 19.4856 8.0005 19.4856Q6.75781 19.4856 5.87954 18.6065L1.63598 14.3639Q-1.00006 11.7277 -1 7.99984Q-0.999936 4.27197 1.63609 1.63598Q4.27213 -1 8 -1Q11.7279 -0.999999 14.3639 1.63599Q16.9999 4.27197 17 7.99985Q17.0001 11.7277 14.3641 14.3638L14.3641 14.3638ZM12.9499 12.9496Q15 10.8993 15 7.99988Q14.9999 5.10042 12.9497 3.05021Q10.8995 1 8 1Q5.10054 1 3.0503 3.05021Q1.00005 5.10042 1 7.99988Q0.99995 10.8993 3.05002 12.9495L7.29446 17.193Q7.58683 17.4856 8.0005 17.4856Q8.41417 17.4856 8.70689 17.1926L12.9499 12.9496L12.9499 12.9496Z"
-                    fill-rule="nonzero"
-                    fill="rgb(74, 222, 128)"
-                  />
-                  <path
-                    transform="matrix(1 0 0 1 21 20)"
-                    d="M7 3Q7 4.65685 5.82843 5.82843Q4.65685 7 3 7Q1.34314 7 0.171572 5.82842Q-1 4.65685 -1 3Q-1 1.34314 0.171573 0.171573Q1.34314 -1 3 -1Q4.65685 -1 5.82843 0.171572Q7 1.34314 7 3L7 3ZM5 3Q5 2.17157 4.41421 1.58579Q3.82843 1 3 1Q2.17157 1 1.58579 1.58579Q1 2.17157 1 3Q1 3.82843 1.58579 4.41421Q2.17157 5 3 5Q3.82843 5 4.41421 4.41421Q5 3.82843 5 3L5 3Z"
-                    fill-rule="nonzero"
-                    fill="rgb(74, 222, 128)"
-                  />
-                </g>
+                      d="M116,426 C114.343,426 113,424.657 113,423 C113,421.343 114.343,420 116,420 C117.657,420 119,421.343 119,423 C119,424.657 117.657,426 116,426 L116,426 Z M116,418 C113.239,418 111,420.238 111,423 C111,425.762 113.239,428 116,428 C118.761,428 121,425.762 121,423 C121,420.238 118.761,418 116,418 L116,418 Z M116,440 C114.337,440.009 106,427.181 106,423 C106,417.478 110.477,413 116,413 C121.523,413 126,417.478 126,423 C126,427.125 117.637,440.009 116,440 L116,440 Z M116,411 C109.373,411 104,416.373 104,423 C104,428.018 114.005,443.011 116,443 C117.964,443.011 128,427.95 128,423 C128,416.373 122.627,411 116,411 L116,411 Z"
+                      id="location"
+                    >
+                      {" "}
+                    </path>{" "}
+                  </g>{" "}
+                </g>{" "}
               </g>
             </svg>
-
-            <p>
-              <span className="text-md text-gray-400">Location</span>
+            <div style={{fontSize: '15px'}}>
+              <span className="text-md text-gray-400" style={{fontSize: '18px'}}>Location</span>
               <br />
               Ranaghat, West Bengal, India, 741202
-            </p>
+            </div>
           </div>
         </div>
 
         {/* Contact Form */}
-        <form className="space-y-4 text-md">
+        <form className="space-y-4 text-lg">
           {/* Name & Email in Same Line */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <input
