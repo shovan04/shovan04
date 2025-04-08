@@ -16,7 +16,7 @@ const SocialIcon: React.FC<SocialIconProps> = ({
   const handelSocialUrl = (e: React.MouseEvent) => {
     e.preventDefault();
 
-    socialUrl !== "" ? window.open(socialUrl, "_blank") : null; // Social URL is not available.;
+    return socialUrl !== "" ? window.open(socialUrl, "_blank") : null; // Social URL is not available.;
   };
   return (
     <div

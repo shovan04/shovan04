@@ -176,7 +176,7 @@ export default function Skills() {
             />
           </div>
         </div>
-         {/* Frontend */}
+        {/* Frontend */}
         <div id="frontend" className="mt-10">
           <p className="text-xl text-white mb-6">Forntend Tecnologies</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
