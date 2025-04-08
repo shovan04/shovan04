@@ -17,7 +17,7 @@ function App() {
           <Route path="/journey" element={<ProfessionalJourney />} />
           <Route path="/contact" element={<ContactPage />} />
           {/* <Route path="/resume" element={<div>Resume Page</div>} /> */}
-          <Route path="/donate" element={<div>Donate Page</div>} />
+          <Route path="/donate" element={<div className="flex text-center justify-center text-4xl text-white">Donate Page</div>} />
           <Route path="*" element={<div>404 Error Page</div>} />
         </Routes>
       </main>

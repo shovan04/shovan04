@@ -149,7 +149,7 @@ export default function Skills() {
                   xmlns="http://www.w3.org/2000/svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
                   viewBox="0 0 512 512"
-                  enable-background="new 0 0 512 512"
+                  enableBackground="new 0 0 512 512"
                   xmlSpace="preserve"
                 >
                   <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
@@ -801,8 +801,8 @@ export default function Skills() {
                           gradientUnits="userSpaceOnUse"
                         >
                           {" "}
-                          <stop stop-color="#9CA3AF"></stop>{" "}
-                          <stop offset="1" stop-color="#9CA3AF"></stop>{" "}
+                          <stop stopColor="#9CA3AF"></stop>{" "}
+                          <stop offset="1" stopColor="#9CA3AF"></stop>{" "}
                         </linearGradient>{" "}
                         <linearGradient
                           id="paint1_linear_87_8101"
@@ -813,12 +813,12 @@ export default function Skills() {
                           gradientUnits="userSpaceOnUse"
                         >
                           {" "}
-                          <stop stop-color="#9CA3AF"></stop>{" "}
-                          <stop offset="0.270551" stop-color="#9CA3AF"></stop>{" "}
-                          <stop offset="0.421376" stop-color="#9CA3AF"></stop>{" "}
-                          <stop offset="0.618197" stop-color="#9CA3AF"></stop>{" "}
-                          <stop offset="0.855344" stop-color="#9CA3AF"></stop>{" "}
-                          <stop offset="1" stop-color="#9CA3AF"></stop>{" "}
+                          <stop stopColor="#9CA3AF"></stop>{" "}
+                          <stop offset="0.270551" stopColor="#9CA3AF"></stop>{" "}
+                          <stop offset="0.421376" stopColor="#9CA3AF"></stop>{" "}
+                          <stop offset="0.618197" stopColor="#9CA3AF"></stop>{" "}
+                          <stop offset="0.855344" stopColor="#9CA3AF"></stop>{" "}
+                          <stop offset="1" stopColor="#9CA3AF"></stop>{" "}
                         </linearGradient>{" "}
                         <linearGradient
                           id="paint2_linear_87_8101"
@@ -829,8 +829,8 @@ export default function Skills() {
                           gradientUnits="userSpaceOnUse"
                         >
                           {" "}
-                          <stop stop-color="#9CA3AF"></stop>{" "}
-                          <stop offset="1" stop-color="#9CA3AF"></stop>{" "}
+                          <stop stopColor="#9CA3AF"></stop>{" "}
+                          <stop offset="1" stopColor="#9CA3AF"></stop>{" "}
                         </linearGradient>{" "}
                       </defs>{" "}
                     </g>
