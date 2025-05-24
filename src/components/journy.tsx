@@ -6,9 +6,9 @@ const ProfessionalJourney = () => {
       <div className="mx-auto">
         <h2 className="text-3xl font-bold text-center">Professional Journey</h2>
         <div className="flex justify-center mt-4">
-          <button className="bg-green-500 border-accent border-2 hover:bg-transparent hover:border-2 transition-all duration-300 hover:border-accent text-white px-6 py-2 rounded-lg flex items-center gap-2">
+          <a href="/Shovan-resume-.pdf" className="bg-green-500 border-accent border-2 hover:bg-transparent hover:border-2 transition-all duration-300 hover:border-accent text-white px-6 py-2 rounded-lg flex items-center gap-2">
             Download Resume <span>&#x2B07;</span>
-          </button>
+          </a>
         </div>
 
         {/* Education & Certifications */}

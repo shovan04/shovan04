@@ -82,7 +82,7 @@ const HomePage = () => {
                 </SocialIcon>
                 <SocialIcon
                   title="Instagram"
-                  socialUrl="https://instagram.com/nevxmed/"
+                  socialUrl="https://instagram.com/clusteratic/"
                 >
                   <svg
                     className="w-5 h-5 fill-current"
