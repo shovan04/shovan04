@@ -3,7 +3,7 @@ const ContactPage = () => {
     <section className="mx-auto p-4 py-8 text-white">
       <div className="text-center mb-8">
         <h1 className="text-3xl font-bold mb-2">Let's Connect</h1>
-        <p className="text-accent " style={{fontSize: '12px'}}>
+        <p className="text-accent text-md">
           Get in touch for opportunities or collaboration
         </p>
       </div>

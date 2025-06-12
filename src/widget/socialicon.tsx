@@ -1,10 +1,11 @@
-import React, { ReactNode } from "react";
+import React, { ReactNode, useState } from "react";
 
 interface SocialIconProps {
   children: ReactNode;
   title: string;
   className?: string;
   socialUrl?: string;
+  tooltip?: string;
 }
 
 const SocialIcon: React.FC<SocialIconProps> = ({
@@ -12,19 +13,29 @@ const SocialIcon: React.FC<SocialIconProps> = ({
   title,
   className = "",
   socialUrl = "",
+  tooltip,
 }) => {
-  const handelSocialUrl = (e: React.MouseEvent) => {
-    e.preventDefault();
+  const [showTooltip, setShowTooltip] = useState(false);
 
-    return socialUrl !== "" ? window.open(socialUrl, "_blank") : null; // Social URL is not available.;
+  const handleSocialUrl = (e: React.MouseEvent) => {
+    e.preventDefault();
+    return socialUrl !== "" ? window.open(socialUrl, "_blank") : null;
   };
+
   return (
     <div
-      className={`border rounded-full cursor-pointer text-accent border-accent hover:bg-accent hover:shadow-xl transition-all duration-500 ease-in-out hover:text-white ml-2 ${className}`}
+      className={`relative border rounded-full cursor-pointer text-accent border-accent hover:bg-accent hover:shadow-xl transition-all duration-500 ease-in-out hover:text-white ml-2 ${className}`}
       title={title}
-      onClick={handelSocialUrl}
+      onClick={handleSocialUrl}
+      onMouseEnter={() => setShowTooltip(true)}
+      onMouseLeave={() => setShowTooltip(false)}
     >
       <div className="flex items-center justify-center m-2">{children}</div>
+      {showTooltip && socialUrl && (
+        <div className="absolute top-full mt-2 w-max px-3 py-1 bg-black text-white text-xs rounded shadow-lg whitespace-nowrap z-50">
+          {tooltip}
+        </div>
+      )}
     </div>
   );
 };
