@@ -94,7 +94,7 @@ export default function Skills() {
                   </g>
                 </svg>
               }
-              level={60}
+              level={75}
             />
             <SkillsLangs
               name="Python"
@@ -172,7 +172,7 @@ export default function Skills() {
                   </g>
                 </svg>
               }
-              level={78}
+              level={80}
             />
           </div>
         </div>
