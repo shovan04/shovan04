@@ -7,7 +7,7 @@ const Navbar = () => {
   const location = useLocation();
 
   return (
-    <div className="fixed w-full top-0 left-0 z-50 backdrop-blur-md py-4 px-5 lg:px-8">
+    <div className="fixed w-full top-0 left-0 z-50 backdrop-blur-md py-4 px-[10%]">
       <div className="flex items-center justify-between flex-row">
         {/* Logo */}
         <div className="text-4xl cursor-default font-CaskaydiaSemiBold text-white">
@@ -34,11 +34,7 @@ const Navbar = () => {
               </Link>
             ))}
           </div>
-          <Link to="/donate" className="mx-4">
-            <button className="px-3 py-1 text-sm text-white rounded-full border border-accent bg-accent hover:bg-transparent hover:border hover:border-accent hover:shadow-xl transition-all duration-300 ease-in-out hover:text-accent">
-              Donate
-            </button>
-          </Link>
+          
         </nav>
 
         {/* Mobile Menu Button */}
@@ -76,13 +72,7 @@ const Navbar = () => {
               {item.name}
             </Link>
           ))}
-          <Link
-            to="/donate"
-            className="mt-2 px-4 py-2 rounded-full text-white border border-accent bg-accent hover:bg-transparent hover:border-accent hover:shadow-xl transition-all duration-300"
-            onClick={() => setIsMenuOpen(false)}  // Added onClick here
-          >
-            Donate
-          </Link>
+         
         </div>
       </div>
     </div>

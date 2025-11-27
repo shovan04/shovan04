@@ -2,24 +2,24 @@ import React from "react";
 
 export interface SkillsPayload {
   name: string;
-  logo: () => React.ReactNode;
+  logo: React.ReactNode;
   level: number;
 }
 
 export interface SkillsDataPayload {
   type: string;
   title: string;
-  skills: SkillsPayload[];
+  skillsList: SkillsPayload[];
 }
 
 const SkillsData: SkillsDataPayload[] = [
   {
     type: "langs",
     title: "Programming Languages",
-    skills: [
+    skillsList: [
       {
         name: "C++",
-        logo: () => (
+        logo: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
@@ -51,7 +51,7 @@ const SkillsData: SkillsDataPayload[] = [
       },
       {
         name: "Python",
-        logo: () => (
+        logo: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -93,7 +93,7 @@ const SkillsData: SkillsDataPayload[] = [
       },
       {
         name: "JavaScript",
-        logo: () => (
+        logo: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -135,7 +135,7 @@ const SkillsData: SkillsDataPayload[] = [
       },
       {
         name: "PHP",
-        logo: () => (
+        logo: (
           <svg
             fill="rgb(78, 204, 163)"
             width={40}
@@ -174,10 +174,10 @@ const SkillsData: SkillsDataPayload[] = [
   {
     type: "frontend",
     title: "Frontend Technologies",
-    skills: [
+    skillsList: [
       {
         name: "HTML",
-        logo: () => (
+        logo: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -219,7 +219,7 @@ const SkillsData: SkillsDataPayload[] = [
       },
       {
         name: "CSS",
-        logo: () => (
+        logo: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -250,7 +250,7 @@ const SkillsData: SkillsDataPayload[] = [
       },
       {
         name: "React",
-        logo: () => (
+        logo: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -292,7 +292,7 @@ const SkillsData: SkillsDataPayload[] = [
       },
       {
         name: "NextJS",
-        logo: () => (
+        logo: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -343,10 +343,10 @@ const SkillsData: SkillsDataPayload[] = [
   {
     type: "backend",
     title: "Backend Technologies",
-    skills: [
+    skillsList: [
       {
         name: "NodeJS",
-        logo: () => (
+        logo: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -388,7 +388,7 @@ const SkillsData: SkillsDataPayload[] = [
       },
       {
         name: "ExpressJS",
-        logo: () => (
+        logo: (
           <svg
             fill="rgb(78, 204, 163)"
             width={38}
@@ -412,7 +412,7 @@ const SkillsData: SkillsDataPayload[] = [
       },
       {
         name: "Flask",
-        logo: () => (
+        logo: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -454,7 +454,7 @@ const SkillsData: SkillsDataPayload[] = [
       },
       {
         name: "Django",
-        logo: () => (
+        logo: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
