@@ -22,7 +22,7 @@ export default function Skills() {
             <div id={skills.type} className="mt-8" key={skills.type}>
               <p className="text-white text-xl mb-4">{skills.title}</p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {skills.skillsList.map((skillsListData, idx: number) => {
+                {skills.skillsList.map((skillsListData) => {
                   return (
                     <SkillsLangs
                       key={skillsListData.name}

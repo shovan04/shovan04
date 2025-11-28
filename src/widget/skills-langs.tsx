@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { SkillsPayload } from "../data/skills.data";
 
 export default function SkillsLangs({ name, logo, level }: SkillsPayload) {
