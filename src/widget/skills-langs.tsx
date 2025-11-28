@@ -1,12 +1,7 @@
 import React, { useEffect, useState } from "react";
+import { SkillsPayload } from "../data/skills.data";
 
-export type LangsType = {
-  name: string;
-  logo: React.ReactNode;
-  level: number;
-};
-
-export default function SkillsLangs({ name, logo, level }: LangsType) {
+export default function SkillsLangs({ name, logo, level }: SkillsPayload) {
   const [animatedLevel, setAnimatedLevel] = useState(0);
 
   useEffect(() => {
