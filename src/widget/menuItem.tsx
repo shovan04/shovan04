@@ -1,4 +1,9 @@
-const menuItems = [
+export interface MenuItem {
+    name: string;
+    path: string;
+}
+
+const menuItems: MenuItem[] = [
     {
       name: "Home",
       path: "/",
@@ -12,6 +17,10 @@ const menuItems = [
       path: "/journey",
     },
     {
+      name: "Projects",
+      path: "/projects",
+    },
+    {
       name: "Contact",
       path: "/contact",
     },
@@ -20,7 +29,5 @@ const menuItems = [
     //   path: "/resume",
     // },
   ];
-
-
 
 export default menuItems;
