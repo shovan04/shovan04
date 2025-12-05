@@ -1,4 +1,4 @@
-import certifications from "../widget/journey-data";
+import certifications from "../data/journey-data";
 
 const ProfessionalJourney = () => {
   return (
