@@ -30,7 +30,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         {title}
       </h3>
       
-      <p className="text-gray-400 text-sm mb-6 flex-grow leading-relaxed">
+      <p className="text-gray-400 text-sm mb-6 flex-grow leading-relaxed text-justify">
         {description}
       </p>
       

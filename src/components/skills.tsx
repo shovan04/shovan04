@@ -8,7 +8,7 @@ export default function Skills() {
   return (
     <div className="flex flex-col">
       {/* Title Section */}
-      <div id="skill-title" className="mb-4">
+      <div id="skill-title" className="mb-4 text-center">
         <p className="text-3xl font-CaskaydiaSemiBold text-white">
           My Skills & Expertise
         </p>
