@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
         <h2 className="text-3xl md:text-4xl font-CaskaydiaSemiBold text-white mb-4">
           My Innovative Projects
         </h2>
-        <div className="w-24 h-1 bg-accent mx-auto rounded-full opacity-50"></div>
+        <div className="w-24 h-1 bg-accent mx-auto rounded-full"></div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
