@@ -1,4 +1,11 @@
-const certifications = [
+export interface CertificatePayload {
+  title: string;
+  provider: string;
+  year: string;
+  certId: string;
+}
+
+const certifications: CertificatePayload[] = [
     {
       title: "Web Development",
       provider: "freeCodeCamp",
