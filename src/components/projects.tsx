@@ -4,15 +4,15 @@ import { Project, projects } from "../data/projects-data";
 
 const Projects: React.FC = () => {
   return (
-    <div className="container mx-auto py-12">
-      <div className="text-center mb-16">
-        <h2 className="text-3xl md:text-4xl font-CaskaydiaSemiBold text-white mb-4">
+    <div className="container mx-auto">
+      <div className="text-center mb-8 lg:mb-16">
+        <h2 className="text-3xl md:text-4xl font-CaskaydiaSemiBold text-white">
           My Innovative Projects
         </h2>
-        <div className="w-24 h-1 bg-accent mx-auto rounded-full"></div>
+        <div className="w-24 h-1 mt-2 bg-accent mx-auto rounded-full"></div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto mb-6">
         {projects.map((project: Project) => (
           <ProjectCard
             key={project.id}

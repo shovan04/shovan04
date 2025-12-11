@@ -12,7 +12,7 @@ const ProfessionalJourney = () => {
         </div>
 
         {/* Education & Certifications */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 lg:mt-16">
           {/* Education */}
           <div>
             <h3 className="text-4xl font-semibold">Education</h3>
@@ -37,7 +37,7 @@ const ProfessionalJourney = () => {
           </div>
 
           {/* Certifications */}
-          <div>
+          <div className="mb-4">
             <h3 className="text-4xl font-semibold">Certifications</h3>
             <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
               {certifications.map((cert, index) => (

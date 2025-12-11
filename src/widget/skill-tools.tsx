@@ -7,9 +7,16 @@ export type SkillToolsType = {
 
 export default function SkillTools({ name, logo }: SkillToolsType) {
   return (
-    <div className="flex flex-col flex-grow items-center " id={`${name}`}>
-      {logo}
-      <p className="text-center text-white mt-2">{name}</p>
+    <div 
+      className="flex flex-col items-center justify-center p-2 hover:scale-110 transition-transform duration-300" 
+      id={`tool-${name.toLowerCase().replace(/\s+/g, '-')}`}
+    >
+      <div className="mb-2">
+        {logo}
+      </div>
+      <span className="text-center text-gray-200 text-sm font-medium tracking-wide">
+        {name}
+      </span>
     </div>
   );
 }

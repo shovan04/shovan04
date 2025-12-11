@@ -9,9 +9,9 @@ import FooterPage from "./components/footer";
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen mx-[10%] my-6">
+    <div className="flex flex-col min-h-dvh">
       <NavBar />
-      <main className="flex-grow pt-20">
+      <main className="flex-grow pt-24 pb-20 mx-[10%] flex flex-col justify-center">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/skills" element={<Skills />} />
@@ -22,7 +22,9 @@ function App() {
           <Route path="*" element={<div>404 Error Page</div>} />
         </Routes>
       </main>
-      <FooterPage />
+      <div className="fixed bottom-0 w-full bg-primary z-40">
+        <FooterPage />
+      </div>
     </div>
   );
 }

@@ -57,7 +57,8 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div className={`lg:hidden ${isMenuOpen ? 'block' : 'hidden'} mt-4`}>
-        <div className="flex flex-col items-center gap-4 py-4 border-t border-gray-700">
+        <div className="flex flex-col items-center gap-4 border-t border-gray-700">
+          <div></div>
           {menuItems.map((item) => (
             <Link
               key={item.path}

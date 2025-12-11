@@ -16,7 +16,7 @@ export default function Skills() {
       </div>
 
       {/* Skill Details */}
-      <div id="skill-details" className="flex flex-col flex-1 gap-4">
+      <div id="skill-details" className="flex flex-col flex-1 gap-4 mb-2">
         {SkillsData.map((skills: SkillsDataPayload) => {
           return skills.type != "tools" ? (
             <div id={skills.type} className="mt-8" key={skills.type}>
