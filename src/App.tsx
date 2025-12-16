@@ -6,6 +6,7 @@ import ProfessionalJourney from "./components/journy";
 import ContactPage from "./components/contact";
 import Projects from "./components/projects";
 import FooterPage from "./components/footer";
+import NotFound from "./components/not-found";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<ContactPage />} />
           {/* <Route path="/resume" element={<div>Resume Page</div>} /> */}
-          <Route path="*" element={<div>404 Error Page</div>} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <div className="fixed bottom-0 w-full bg-primary z-40">
