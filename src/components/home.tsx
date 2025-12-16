@@ -1,4 +1,5 @@
 import SocialIcon from "../widget/socialicon";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -25,7 +26,7 @@ const HomePage = () => {
             <div className="h-5"></div>
             {/* Buttons */}
             <div className="font-CaskaydiaSemiBold flex flex-row items-center  ">
-              <a href="/Shovan-resume-.pdf" target="_blank">
+              <Link to="/Shovan-resume-.pdf" rel="noopener noreferrer" target="_blank">
                 <div
                   className="flex items-center text-accent border max-w-fit border-accent pl-4 pr-4 pt-2 pb-2 rounded-full cursor-pointer hover:bg-accent hover:text-white hover:shadow-xl transition-all duration-500 ease-in-out lg:text-sm"
                   title="Download CV"
@@ -51,7 +52,7 @@ const HomePage = () => {
                     ></path>
                   </svg>
                 </div>
-              </a>
+              </Link>
 
               {/* Social Handels */}
               <div className="mx-6 flex flex-row">
