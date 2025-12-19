@@ -10,9 +10,9 @@ import NotFound from "./components/not-found";
 
 function App() {
   return (
-    <div className="flex flex-col min-h-dvh">
+    <div className="flex flex-col min-h-dvh w-dvw">
       <NavBar />
-      <main className="flex-grow pt-24 pb-20 mx-[10%] flex flex-col justify-center">
+      <main className="flex-grow pt-24 pb-20 mx-8 md:mx-[10%] flex flex-col justify-center">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/skills" element={<Skills />} />
