@@ -2,18 +2,25 @@
 
 # Hi, I'm Shovan Mondal! 🚀
 
-I’m a passionate software developer with a diverse skill set spanning **C, C++, Java, JavaScript**, and frameworks like **React, Node.js, Next.js,** and **Flutter**. Currently studying at Regent Education and Research Foundation, I'm eager to apply my knowledge and skills to create impactful technology solutions.
+I'm a **backend-focused software developer and B.Tech student** passionate about building scalable systems, reliable APIs, and practical software that solves real-world problems.
+
+My primary stack is **Node.js, NestJS, Express, and TypeScript**, with strong experience in **Python, Django, Flask, PostgreSQL, MySQL, Prisma, Redis, REST APIs, and cloud-native technologies such as Cloudflare Workers and Hono**.
+
+I enjoy working on the engineering behind applications — from **API architecture and database design to authentication, validation, caching, real-time systems, and deployment**.
 
 ## About Me
 
-I thrive on transforming innovative ideas into functional technology. My expertise in both frontend and backend development empowers me to contribute effectively to a wide range of projects, from dynamic web applications to cutting-edge mobile solutions.
+I like turning ideas into working products while continuously improving how those systems are designed, structured, and scaled.
 
-- 🔭 **Currently working on**: Exploring advanced concepts in my tech stack and building projects that bridge the gap between technology and user needs.
-- 🌱 **Currently learning**: Exploring new technologies and tools to stay ahead in the ever-evolving tech landscape.
-- 💬 **Ask me about**: **JavaScript, React, Node.js, Next.js, Flutter, PHP, Tailwind CSS, Android Development, TypeScript, and more.**
-- ⚡ **Fun fact**: I love diving into Hindu mythology books, enjoying movies, and listening to music in my free time.
+* 🔭 **Currently working on:** **Proveniq**, contributing to the development of its backend systems, APIs, infrastructure, and overall engineering architecture. I'm primarily working with **NestJS, Express, TypeScript, PostgreSQL, Prisma, Redis, and Cloudflare**, with a focus on building reliable and scalable services.
+* 🌱 **Currently learning:** **System design, distributed systems, cloud infrastructure, cybersecurity, and advanced backend engineering concepts**.
+* 💬 **Ask me about:** **NestJS, Express, Node.js, TypeScript, Python, Django, Flask, PostgreSQL, MySQL, Prisma, Redis, REST APIs, Cloudflare Workers, Hono, and backend architecture**.
+* ⚡ **Fun fact:** I genuinely enjoy both **building software and cooking** 😄
 
-Let’s connect and create something amazing together!
+I believe great software isn't just about writing code. It's about **understanding the problem, designing the right system, and building something that remains useful beyond the first release**.
+
+Let's build something meaningful together!
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
