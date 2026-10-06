@@ -9,6 +9,10 @@ const menuItems: MenuItem[] = [
       path: "/",
     },
     {
+      name: "About",
+      path: "/about",
+    },
+    {
       name: "Skills",
       path: "/skills",
     },

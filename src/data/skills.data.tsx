@@ -1,8 +1,8 @@
-import React from "react";
+import type { ReactNode } from "react";
 
 export interface SkillsPayload {
   name: string;
-  logo: React.ReactNode;
+  logo: ReactNode;
   level: number;
 }
 

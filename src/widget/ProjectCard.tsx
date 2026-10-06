@@ -1,4 +1,4 @@
-import React from "react";
+import Icon from "./icon";
 
 interface ProjectCardProps {
   title: string;
@@ -6,46 +6,22 @@ interface ProjectCardProps {
   tags: string[];
   icon: string;
   link: string;
+  highlight?: string;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({
-  title,
-  description,
-  tags,
-  icon,
-  link,
-}) => {
+export default function ProjectCard({ title, description, tags, icon, link, highlight }: ProjectCardProps) {
   return (
-    <a 
-      href={link} 
-      target="_blank" 
-      rel="noopener noreferrer" 
-      className="bg-secondary p-6 rounded-xl border border-transparent hover:border-accent/20 transition-all duration-300 hover:shadow-lg hover:shadow-accent/5 group h-full flex flex-col block"
-    >
-      <div className="mb-4 bg-primary/50 w-12 h-12 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-        <img src={icon} alt={title} className="w-8 h-8 object-contain" />
+    <a href={link} target="_blank" rel="noopener noreferrer" className="panel interactive-card project-card" aria-label={`View ${title} on GitHub (opens in a new tab)`}>
+      <div className="project-card-top">
+        <div className="project-logo"><img src={icon} alt="" width="36" height="36" loading="lazy" /></div>
+        <span className="project-type" aria-hidden="true">Open source</span>
       </div>
-      
-      <h3 className="text-xl font-CaskaydiaSemiBold text-accent mb-2 group-hover:text-white transition-colors">
-        {title}
-      </h3>
-      
-      <p className="text-gray-400 text-sm mb-6 flex-grow leading-relaxed text-justify">
-        {description}
-      </p>
-      
-      <div className="flex flex-wrap gap-2 mt-auto">
-        {tags.map((tag, index) => (
-          <span 
-            key={index}
-            className="text-xs px-3 py-1 rounded-full bg-primary/50 text-gray-300 border border-gray-700/50"
-          >
-            {tag}
-          </span>
-        ))}
+      <div className="project-title-row"><h2>{title}</h2>{highlight && <span className="project-highlight">{highlight}</span>}</div>
+      <p className="project-description">{description}</p>
+      <div className="project-tags">
+        {tags.map((tag) => <span key={tag}>{tag}</span>)}
       </div>
+      <div className="project-card-bottom"><span>View project</span><Icon name="arrow-up-right" /></div>
     </a>
   );
-};
-
-export default ProjectCard;
+}
