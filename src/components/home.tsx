@@ -38,7 +38,7 @@ const HomePage = () => {
         <Reveal delay={150} className="hero-visual">
           <div className="portrait-orbit">
             <div className="portrait-frame">
-              <img src="/my-bitmoji.png" alt="Illustrated portrait of Shovan Mondal" width="1002" height="1336" fetchPriority="high" />
+              <img src="/my-photo.png" alt="Portrait of Shovan Mondal" width="1254" height="1254" fetchPriority="high" />
             </div>
             <span className="portrait-code" aria-hidden="true">&lt;/&gt;</span>
             <div className="portrait-caption"><span className="status-dot" /> Turning ideas into systems</div>

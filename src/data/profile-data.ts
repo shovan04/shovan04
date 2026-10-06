@@ -3,7 +3,6 @@ export const profile = {
   handle: "shovan04",
   role: "Backend developer",
   education: "B.Tech student",
-  location: "Kolkata, India",
   company: "Proveniq",
   website: "https://shovan04.in/",
   github: "https://github.com/shovan04",

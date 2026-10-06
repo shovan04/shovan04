@@ -53,7 +53,6 @@ const Navbar = () => {
             </NavLink>
           ))}
         </nav>
-        <Link to="/contact" className="nav-contact text-link">Let’s talk <Icon name="arrow-up-right" /></Link>
         <button
           ref={toggleRef}
           type="button"

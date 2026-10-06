@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "prev": "vite preview",
+    "prev": "yarn build && vite preview",
     "deploy": "yarn lint && yarn build && firebase deploy"
   },
   "dependencies": {

@@ -23,6 +23,8 @@ TestResults.xml
 
 dist/
 node_modules/
+.DS_Store
+*.tsbuildinfo
 
 .firebaserc
 
@@ -30,4 +32,4 @@ firebase.json
 
 .firebase/*
 
-*.cashe
+*.cache
