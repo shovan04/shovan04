@@ -5,13 +5,14 @@ export interface Project {
   tags: string[];
   icon: string;
   link: string;
+  highlight?: string;
 }
 
 export const projects: Project[] = [
   {
     id: 1,
-    title: "FileUploder",
-    description: "A lightweight, secure, and self-hosted file uploader built with Express, TypeScript, and Multer. Inspired by AWS S3’s pre-signed URL concept but without external cloud dependencies.",
+    title: "FileUploader",
+    description: "A secure, self-hosted uploader inspired by AWS S3 pre-signed URLs, with HMAC-SHA256 signatures, encrypted filenames, expiry checks, Multer, and DTO validation.",
     tags: ["Express", "TypeScript", "Multer", "File Upload", "DDD", "Backend"],
     icon: "/icons/projects/FileUploderLogo.png", // Cloud upload icon
     link: "https://github.com/shovan04/FileUploder",
@@ -19,7 +20,7 @@ export const projects: Project[] = [
   {
     id: 2,
     title: "SwasthyaKhoj",
-    description: "Mobile application to help users find healthcare services and access medical information. Integrates various APIs and uses Firebase for backend.",
+    description: "A smart health companion for rural areas that helps users discover medical stores and hospitals, check doctor availability, and book visits.",
     tags: ["Flutter", "Dart", "Healthcare", "Firebase"],
     icon: "/icons/projects/SwasthyaKhojLogo.png", // Healthcare/Medical icon
     link: "https://github.com/shovan04/SwasthyaKhoj",
@@ -27,15 +28,16 @@ export const projects: Project[] = [
   {
     id: 3,
     title: "NovaCrypt",
-    description: "Lightweight cryptographic library implemented in C++ for straightforward encryption and decryption of text and files.",
+    description: "A C++11 command-line cryptographic library I created for encrypting and decrypting text and file contents with configurable key and salt parameters.",
     tags: ["C++", "Cryptography", "Security", "Encryption"],
     icon: "/icons/projects/NovaCryptLogo.png", // Lock/Security icon
     link: "https://github.com/shovan04/NovaCrypt",
+    highlight: "Created by Shovan",
   },
   {
     id: 4,
     title: "ExpressTs",
-    description: "A C++ program that sets up a basic structure for a Typescript Express application, automating the boilerplate setup.",
+    description: "A C++17 CLI that bootstraps a TypeScript Express project with a ready-to-grow directory structure and configuration files.",
     tags: ["C++", "TypeScript", "Express", "Automation"],
     icon: "/icons/projects/ExpressTsLogo.png", // TypeScript icon
     link: "https://github.com/shovan04/ExpressTs",
